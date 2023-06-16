@@ -126,6 +126,15 @@ footer {
   background-color: #000;
 }
 
+.btn_texto {
+  text-decoration: none;
+  color: rgb(189, 123, 0);
+}
+
+.btn_texto:hover {
+  color: rgb(156, 102, 0);
+}
+
 form {
   display: flex;
   flex-direction: column;
