@@ -164,3 +164,41 @@ button {
 button:hover {
   background-color: #000;
 }
+
+.slideshow {
+  width: 450px;
+  height: 300px;
+  overflow: hidden;
+  border-radius: 20px;
+  margin: 10px;
+  justify-content: right;
+}
+
+.slide {
+  width: 100%;
+  height: 100%;
+  display: none;
+}
+
+.slide.active {
+  display: block;
+}
+
+#home {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+#home .texto_home h2 strong {
+  color: #0074FF;
+}
+
+.texto_home{
+  width: 550px;
+  height: 300px;
+}
+
+#btn_contato_home {
+  margin: 10px 0px;
+}
