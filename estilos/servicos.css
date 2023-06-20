@@ -205,6 +205,19 @@ footer {
   color: #f4b942ff;
 }
 
+#btn_contato_compre {
+  background-color: #f4b942ff;
+  color: black;
+  padding: 7px 2px;
+  border-radius: 5px;
+  text-decoration: none;
+}
+
+#btn_contato_compre:hover {
+  background-color: black;
+  color: #f4b942ff;
+}
+
 button {
   background-color: #333;
   color: #fff;
@@ -263,7 +276,7 @@ button:hover {
 
 .comparison-table {
   display: table;
-  width: 50%;
+  width: 60%;
   border-collapse: collapse;
   margin: 0px auto;
 }
@@ -272,24 +285,35 @@ button:hover {
   display: table-row;
 }
 
+.table-row-compre {
+  display: table-row;
+}
+
 .table-cell {
   display: table-cell;
   border: 1px solid #ccc;
-  padding: 10px 0px;
+  padding: 10px 2px;
   width: 50px;
 }
 
 .table-cell-servico {
   display: table-cell;
   border: 1px solid #ccc;
-  padding: 10px 0px;
-
+  text-align: center;
+  align-items: center;
+  justify-content: center;
 }
 
 .table-cell-valor {
   display: table-cell;
   border: 1px solid #ccc;
   padding: 3px;
+  text-align: center;
+}
+
+.table-cell-compre {
+  display: table-cell;
+
   text-align: center;
 }
 
@@ -317,4 +341,6 @@ button:hover {
 #table-cell-text {
   text-align: left;
   padding-left: 10px;
+  justify-content: center;
+  align-items: center;
 }
