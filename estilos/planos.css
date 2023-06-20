@@ -1,0 +1,412 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: Arial, sans-serif;
+}
+
+header {
+  background-color: #333;
+  padding: 20px;
+  color: #fff;
+}
+
+nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.logo h1 {
+  font-size: 24px;
+}
+
+.menu {
+  list-style: none;
+  display: flex;
+}
+
+.menu li {
+  margin-left: 10px;
+}
+
+.menu li a {
+  text-decoration: none;
+  color: #fff;
+  font-weight: bold;
+}
+
+main {
+  padding: 40px auto;
+  margin: 40px 0px;
+}
+
+section {
+  margin-bottom: 40px;
+}
+
+section.dark {
+  background-color: #333;
+  color: #fff;
+  padding: 40px;
+}
+
+h2 {
+  font-size: 24px;
+  margin-bottom: 20px;
+}
+
+.servico {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  margin-bottom: 20px;
+}
+
+.servico i {
+  margin-right: 10px;
+}
+
+.portfolio-grid {
+  display: flex;
+  flex-wrap: nowrap;
+  overflow-x: auto;
+  gap: 20px;
+  justify-content: center;
+}
+
+@media screen and (max-width: 768px) {
+  .portfolio-grid {
+    flex-wrap: wrap;
+  }
+
+  .comparison-table {
+    display: table;
+    width: 100%;
+    border-collapse: collapse;
+    margin: 0px auto;
+  }
+  
+  .table-row {
+    display: table-row;
+  }
+  
+  .table-row-compre {
+    display: table-row;
+  }
+  
+  .table-cell {
+    display: table-cell;
+    border: 1px solid #ccc;
+    padding: 0px;
+    width: 0px;
+  }
+  
+  .table-cell-servico {
+    display: table-cell;
+    border: 1px solid #ccc;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+  }
+  
+  .table-cell-valor {
+    display: table-cell;
+    border: 1px solid #ccc;
+    padding: 0px;
+    text-align: center;
+  }
+  
+  .table-cell-compre {
+    display: table-cell;
+  
+    text-align: center;
+  }
+  
+  .table-cell:first-child {
+    font-weight: bold;
+  }
+  
+  /* Estilos específicos para a primeira linha (cabeçalho) */
+  .table-row:first-child {
+    background-color: #f2f2f2;
+    font-weight: bold;
+  }
+  
+  /* Estilize a célula "x" como desejado */
+  .table-cell {
+    text-align: center;
+    font-weight: bold;
+  }
+  
+  #table-cell-text {
+    text-align: left;
+    padding-left: 0px;
+    justify-content: center;
+    align-items: center;
+  }
+}
+
+.portfolio-item {
+  text-align: center;
+  width: 300px;
+}
+
+.portfolio-item img {
+  width: 100%;
+  max-width: 100px;
+  height: auto;
+  margin-bottom: 10px;
+}
+
+#plano_exclusivo {
+  display: flex;
+  justify-content: center;
+}
+
+.elegant-background {
+  background-color: #d6d5d5;
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.elegant-background h4 {
+  font-size: 18px;
+  font-weight: bold;
+  margin-top: 0;
+}
+
+.elegant-background ul {
+  list-style-type: none;
+  padding-left: 20px;
+}
+
+.elegant-background ul li {
+  position: relative;
+  padding-left: 20px;
+  margin-bottom: 10px;
+  text-align: left;
+}
+
+.elegant-background ul li:before {
+  content: '\2022';
+  position: absolute;
+  left: 0;
+  color: #FF6B6B;
+  font-size: 14px;
+}
+
+.elegant-background ul li.plus-item:before {
+  content: '+';
+  color: #0074FF;
+}
+
+footer {
+  background-color: #333;
+  color: #fff;
+  padding: 20px;
+}
+
+.footer-menu {
+  list-style: none;
+  display: flex;
+  justify-content: center;
+  margin-bottom: 10px;
+}
+
+.footer-menu li {
+  margin: 0 10px;
+}
+
+.footer-menu li a {
+  text-decoration: none;
+  color: #fff;
+}
+
+.direitos {
+  display: flex;
+  justify-content: center;
+}
+
+.social-media a {
+  color: #fff;
+  margin-right: 10px;
+}
+
+.btn {
+  display: inline-block;
+  background-color: #333;
+  color: #fff;
+  padding: 10px 20px;
+  text-decoration: none;
+  border-radius: 5px;
+  transition: background-color 0.3s ease;
+}
+
+.btn:hover {
+  background-color: #000;
+}
+
+.btn_texto {
+  text-decoration: none;
+  color: #0074FF;
+}
+
+.btn_texto:hover {
+  color: #0958b9;
+}
+
+#btn_contato_saiba_mais {
+  background-color: #f4b942ff;
+  color: black;
+  letter-spacing: 2px;
+}
+
+#btn_contato_saiba_mais:hover {
+  background-color: black;
+  color: #f4b942ff;
+}
+
+#btn_contato_compre {
+  background-color: #f4b942ff;
+  color: black;
+  padding: 7px 2px;
+  border-radius: 5px;
+  text-decoration: none;
+}
+
+#btn_contato_compre:hover {
+  background-color: black;
+  color: #f4b942ff;
+}
+
+button {
+  background-color: #333;
+  color: #fff;
+  border: none;
+  padding: 10px 20px;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+button:hover {
+  background-color: #000;
+}
+
+.slideshow {
+  width: 450px;
+  height: 300px;
+  overflow: hidden;
+  border-radius: 20px;
+  margin: 10px;
+  justify-content: right;
+}
+
+.slide {
+  width: 100%;
+  height: 100%;
+  display: none;
+}
+
+.slide.active {
+  display: block;
+}
+
+#home {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+
+#home .texto_home h2 strong {
+  color: #0074FF;
+}
+
+.texto_home{
+  width: 550px;
+  height: 300px;
+}
+
+#btn_contato_home {
+  margin: 10px 0px;
+}
+
+.div_serv_personalizado {
+  color: #0074FF;
+}
+
+.comparison-table {
+  display: table;
+  width: 60%;
+  border-collapse: collapse;
+  margin: 0px auto;
+}
+
+.table-row {
+  display: table-row;
+}
+
+.table-row-compre {
+  display: table-row;
+}
+
+.table-cell {
+  display: table-cell;
+  border: 1px solid #ccc;
+  padding: 10px 2px;
+  width: 50px;
+}
+
+.table-cell-servico {
+  display: table-cell;
+  border: 1px solid #ccc;
+  text-align: center;
+  align-items: center;
+  justify-content: center;
+}
+
+.table-cell-valor {
+  display: table-cell;
+  border: 1px solid #ccc;
+  padding: 3px;
+  text-align: center;
+}
+
+.table-cell-compre {
+  display: table-cell;
+
+  text-align: center;
+}
+
+.table-cell:first-child {
+  font-weight: bold;
+}
+
+/* Estilos específicos para a primeira linha (cabeçalho) */
+.table-row:first-child {
+  background-color: #f2f2f2;
+  font-weight: bold;
+}
+
+/* Estilize a célula "x" como desejado */
+.table-cell {
+  text-align: center;
+  font-weight: bold;
+}
+
+.adicional {
+  height: 50px;
+  width: 50px;
+}
+
+#table-cell-text {
+  text-align: left;
+  padding-left: 10px;
+  justify-content: center;
+  align-items: center;
+}
