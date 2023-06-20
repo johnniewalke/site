@@ -133,6 +133,11 @@ h2 {
   font-size: 14px;
 }
 
+.elegant-background ul li.plus-item:before {
+  content: '+';
+  color: #0074FF;
+}
+
 footer {
   background-color: #333;
   color: #fff;
