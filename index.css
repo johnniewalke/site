@@ -188,20 +188,15 @@ footer {
   color: #0958b9;
 }
 
-form {
-  display: flex;
-  flex-direction: column;
-  max-width: 400px;
-  margin: 0 auto;
+#btn_contato_saiba_mais {
+  background-color: #f4b942ff;
+  color: black;
+  letter-spacing: 2px;
 }
 
-input,
-textarea {
-  margin-bottom: 10px;
-  padding: 10px;
-  border: 1px solid #ccc;
-  border-radius: 5px;
-  font-size: 14px;
+#btn_contato_saiba_mais:hover {
+  background-color: black;
+  color: #f4b942ff;
 }
 
 button {
