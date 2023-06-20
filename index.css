@@ -155,6 +155,11 @@ footer {
   color: #fff;
 }
 
+.direitos {
+  display: flex;
+  justify-content: center;
+}
+
 .social-media a {
   color: #fff;
   margin-right: 10px;
