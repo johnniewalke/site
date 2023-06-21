@@ -99,6 +99,10 @@ h2 {
   }
 }
 
+.table-row-compre {
+  display: table-row;
+}
+
 .portfolio-item {
   text-align: center;
   width: 300px;
@@ -307,6 +311,7 @@ button:hover {
 
 .table-cell-compre {
   display: table-cell;
+  text-align: center;
 }
 
 .table-cell:first-child {
@@ -336,4 +341,14 @@ button:hover {
   justify-content: center;
   align-items: center;
 
+}
+
+.obs_planos {
+  margin: 10px 0px;
+  text-align: center;
+  font-size: 12px;
+}
+
+.obs_planos>p>strong {
+  color: red;
 }

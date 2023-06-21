@@ -358,3 +358,13 @@ button:hover {
   justify-content: center;
   align-items: center;
 }
+
+.obs_planos {
+  margin: 10px 0px;
+  text-align: center;
+  font-size: 12px;
+}
+
+.obs_planos>p>strong {
+  color: red;
+}
