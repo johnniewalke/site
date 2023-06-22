@@ -99,6 +99,9 @@ h2 {
     display: none;
   }
 
+  .menu>li>a {
+    font-size: 14px;
+  }
 }
 
 .portfolio-item {
