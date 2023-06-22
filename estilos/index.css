@@ -8,6 +8,12 @@ body {
   font-family: Arial, sans-serif;
 }
 
+body p {
+  text-indent: 20px; /* recua a primeira linha em 20 pixels */
+  text-align: justify;
+  padding: 2px 0px 2px 0px;
+}
+
 header {
   background-color: #333;
   padding: 20px;
@@ -88,6 +94,11 @@ h2 {
   .portfolio-grid {
     flex-wrap: wrap;
   }
+  
+  #botao_contato_home {
+    display: none;
+  }
+
 }
 
 .portfolio-item {
@@ -251,6 +262,10 @@ button:hover {
   display: block;
 }
 
+#separacao_clientes {
+  text-align: center;
+}
+
 #clientes {
   display: flex;
   flex-wrap: wrap;
@@ -294,9 +309,18 @@ button:hover {
 }
 
 #btn_contato_home {
-  margin: 10px 0px;
+  margin: 10px 0px 50px 0px;
+}
+
+#botao_contato_home{
+  margin: 0px 0px 100px 0px;
 }
 
 .div_serv_personalizado {
   color: #0074FF;
+}
+
+.texto_clientes {
+  width: 550px;
+
 }
