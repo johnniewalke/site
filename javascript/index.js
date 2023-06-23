@@ -46,3 +46,26 @@ function startSlideshowClientes() {
 // Inicia o slideshow
 startSlideshowClientes();
 ////////////////////////// Fim - Slide Show Clientes
+
+////////////////////////// Carrossel
+const carousel = document.querySelector('.logo-carousel');
+const carouselSlides = Array.from(carousel.getElementsByClassName('logo-slide'));
+const carouselSlideWidth = carouselSlides[0].offsetWidth;
+const carouselNumVisibleSlides = 4;
+let carouselCurrentPosition = 0;
+
+carousel.style.width = `${carouselSlideWidth * carouselNumVisibleSlides}px`;
+
+function rotateCarouselSlides() {
+  const currentCarouselSlide = carouselSlides[carouselCurrentPosition];
+  const nextCarouselSlidePosition = (carouselCurrentPosition + carouselNumVisibleSlides) % carouselSlides.length;
+  const nextCarouselSlide = carouselSlides[nextCarouselSlidePosition];
+
+  currentCarouselSlide.classList.remove('active');
+  nextCarouselSlide.classList.add('active');
+
+  carouselCurrentPosition = nextCarouselSlidePosition;
+}
+
+setInterval(rotateCarouselSlides, 10000);
+////////////////////////// Fim - Carrossel
