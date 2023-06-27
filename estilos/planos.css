@@ -335,6 +335,11 @@ button:hover {
   width: 50px;
 }
 
+#desconto img {
+  height: 50px;
+  width: 50px;
+}
+
 #table-cell-text {
   text-align: left;
   padding-left: 10px;
