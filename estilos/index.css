@@ -15,9 +15,19 @@ body p {
 }
 
 header {
+  position: relative;
   background-color: #333;
   padding: 20px;
   color: #fff;
+}
+
+.fundoHeader {
+  bottom: 0;
+}
+
+.fundoHeader>img {
+  height: 75px;
+  width: 100%;
 }
 
 nav {
